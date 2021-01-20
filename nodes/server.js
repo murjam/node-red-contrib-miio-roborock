@@ -1,7 +1,7 @@
 const EventEmitter = require('events');
 const miio = require('miio');
 const MiioRoborockVocabulary = require('../lib/miio-roborock-vocabulary.js');
-const retryOpertation = require('../lib/retry.js');
+const retryOperation = require('../lib/retry.js');
 
 module.exports = function (RED) {
     class ServerNode {
